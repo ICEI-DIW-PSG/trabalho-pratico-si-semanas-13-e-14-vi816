@@ -1,0 +1,114 @@
+{
+  "pageInfo": {
+    "title": "Veja nossas relíquias",
+    "subtitle": "Explore nossa coleção de relíquias antigas e mergulhe no encanto do passado preservado em cada detalhe",
+    "carouselId": "paginaCarousel"
+  },
+  "navigationButtons": [
+    {
+      "id": "btn-armadura",
+      "label": "Armadura de Urso",
+      "targetSlide": 0,
+      "description": "Ver armadura para caçadores de ursos siberianos",
+      "icon": "🛡️",
+      "color": "#8B4513",
+      "category": "medieval"
+    },
+    {
+      "id": "btn-lavadora",
+      "label": "Lavadora de 1907",
+      "targetSlide": 1,
+      "description": "Conhecer a lavadora histórica com sistema manual",
+      "icon": "🔧",
+      "color": "#2E8B57",
+      "category": "industrial"
+    },
+    {
+      "id": "btn-cortador",
+      "label": "Cortador Antigo",
+      "targetSlide": 2,
+      "description": "Explorar o fatiador vintage de mercados",
+      "icon": "🔪",
+      "color": "#B22222",
+      "category": "culinario"
+    }
+  ],
+  "carouselItems": [
+    {
+      "id": "0",
+      "title": "Armadura de Urso",
+      "period": "Século XIX",
+      "description": "Armadura utilizada por caçadores na Sibéria para proteção durante caçadas a ursos. Feita com placas de metal e couro resistente.",
+      "image": {
+        "src": "images.jpg",
+        "alt": "Armadura com pregos para proteção de caçadores de ursos"
+      },
+      "details": {
+        "material": "Metal e couro",
+        "origem": "Sibéria, Rússia",
+        "peso": "Aproximadamente 15kg",
+        "conservacao": "Boa"
+      }
+    },
+    {
+      "id": "1",
+      "title": "Lavadora de 1907",
+      "period": "Início do Século XX",
+      "description": "Máquina de lavar roupas com sistema de rotação manual, representando os primórdios da automação doméstica.",
+      "image": {
+        "src": "lavadora-1907-cabilavi-qk2675qmxgqrbjo3ytms8uiegyrei35a147uygggeo.png",
+        "alt": "Lavadora de roupas histórica de 1907"
+      },
+      "details": {
+        "material": "Madeira e metal",
+        "origem": "Estados Unidos",
+        "capacidade": "5-8 peças de roupa",
+        "conservacao": "Excelente"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Cortador Antigo",
+      "period": "Final do Século XIX",
+      "description": "Fatiador manual utilizado em açougues e mercados tradicionais para cortar presunto e outros embutidos com precisão.",
+      "image": {
+        "src": "13428635.jpg",
+        "alt": "Cortador antigo de presunto e embutidos"
+      },
+      "details": {
+        "material": "Ferro fundido e aço",
+        "origem": "Europa",
+        "peso": "Aproximadamente 8kg",
+        "conservacao": "Boa"
+      }
+    }
+  ],
+  "styles": {
+    "buttonContainer": {
+      "display": "flex",
+      "justifyContent": "center",
+      "gap": "20px",
+      "margin": "30px 0",
+      "flexWrap": "wrap"
+    },
+    "navigationButton": {
+      "padding": "15px 25px",
+      "border": "none",
+      "borderRadius": "10px",
+      "cursor": "pointer",
+      "fontSize": "16px",
+      "fontWeight": "bold",
+      "color": "white",
+      "minWidth": "200px",
+      "boxShadow": "0 4px 8px rgba(0,0,0,0.2)"
+    },
+    "carouselContainer": {
+      "maxWidth": "800px",
+      "margin": "20px auto",
+      "padding": "20px",
+      "backgroundColor": "#f8f9fa",
+      "borderRadius": "15px",
+      "boxShadow": "0 4px 12px rgba(0,0,0,0.1)"
+    }
+  }
+}

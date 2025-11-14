@@ -10,14 +10,18 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 ## Informações do trabalho
 
 - Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Matricula: 
+- Proposta de projeto escolhida: 
+- Breve descrição sobre seu projeto: 
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+<<  COLOQUE A IMAGEM TELA 1 AQUI 
+![alt text](<Captura de tela 2025-11-14 172305.png>)
 
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![alt text](<Captura de tela 2025-11-14 172325.png>)
+
+![alt text](<Captura de tela 2025-11-14 172453.png>)

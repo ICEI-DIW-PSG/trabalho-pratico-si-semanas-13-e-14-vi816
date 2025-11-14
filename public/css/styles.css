@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background: #f5f2ea;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, rgb(195, 147, 84) 0%, rgb(180, 130, 70) 50%, rgb(210, 160, 95) 100%);
+    color: rgb(147, 13, 13);
+    padding: 25px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(147, 13, 13, 0.3);
+    border-bottom: 3px solid rgb(147, 13, 13);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(147,13,13,0.1)"/></svg>');
+    background-size: 50px 50px;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+header::after {
+    content: '⚱️ 🏺 ⚔️ 🛡️ 📜';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 16px;
+    color: rgb(147, 13, 13);
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 42px;
+    font-family: 'Georgia', serif;
+    color: rgb(147, 13, 13);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, rgb(147, 13, 13), transparent);
+    border-radius: 2px;
+}
+
+header div {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+header li {
+    position: relative;
+}
+
+header a {
+    color: rgb(147, 13, 13);
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(147, 13, 13, 0.3);
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    color: rgb(147, 13, 13);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-style: italic;
+    position: relative;
+}
+
+h2::before,
+h2::after {
+    content: '✦';
+    color: rgb(195, 147, 84);
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myCarousel {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+#myCarousel .carousel-inner {
+    width: 100%;
+}
+
+#myCarousel .carousel-item img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+
+.botoes {
+    padding: 12px 25px;
+    margin: 15px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(195, 147, 84), rgb(180, 130, 70));
+    border: none;
+    color: rgb(147, 13, 13);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(195, 147, 84, 0.4);
+}
+
+.botoes:hover {
+    opacity: 0.9;
+}
+
+footer {
+    max-width: 100%;
+    background: linear-gradient(135deg, rgb(195, 147, 84) 0%, rgb(180, 130, 70) 50%, rgb(210, 160, 95) 100%);
+    box-shadow: 0 4px 15px rgba(147, 13, 13, 0.3);
+    color: rgb(147, 13, 13);
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    min-height: 180px;
+}
+
+footer p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(147, 13, 13);
+    box-shadow: 0 4px 15px rgba(147, 13, 13, 0.3);
+    margin: 1px 0 0 0;
+    text-align: left;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(147, 13, 13);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    float: left;
+    width: 90px;
+    height: 80px;
+    display: block;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.conteiner.text-center {
+    margin: 15px;
+    padding: 16px 18px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: rgb(195, 147, 84);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.conteiner.text-center img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: block;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+.conteiner.text-center p {
+    font-size: 16px;
+    color: rgb(147, 13, 13);
+    line-height: 1.55;
+    margin: 0;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 15px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    
+    header ul {
+        gap: 15px;
+        flex-direction: column;
+    }
+    
+    header a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    header::after {
+        font-size: 14px;
+        top: 5px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteiner.text-center {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .conteiner.text-center img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .conteiner.text-center p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    
+    header a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

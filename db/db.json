@@ -1,18 +1,63 @@
 {
   "usuarios": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "senha": "123456"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "nome": "Maria Santos",
+      "email": "maria@email.com",
+      "senha": "senha123"
+    }
+  ],
+  "acessos": [
+    {
+      "id": "1",
+      "item": "Armadura de Urso",
+      "categoria": "medieval",
+      "visualizacoes": 11893,
+      "ultimoAcesso": "2025-11-14T20:24:17.112Z"
+    },
+    {
+      "id": "2",
+      "item": "Lavadora de 1907",
+      "categoria": "industrial",
+      "visualizacoes": 11990,
+      "ultimoAcesso": "2025-11-14T20:24:17.544Z"
+    },
+    {
+      "id": "3",
+      "item": "Cortador Antigo",
+      "categoria": "culinario",
+      "visualizacoes": 11817,
+      "ultimoAcesso": "2025-11-14T20:23:44.298Z"
+    },
+    {
+      "id": "4",
+      "item": "Página Principal",
+      "categoria": "navegacao",
+      "visualizacoes": 587,
+      "ultimoAcesso": "2025-11-14T18:30:05.782Z"
+    },
+    {
+      "id": "5",
+      "item": "Página de Detalhes",
+      "categoria": "navegacao",
+      "visualizacoes": 2339,
+      "ultimoAcesso": "2025-11-14T20:24:14.424Z"
+    }
+  ],
+  "estatisticas": [
+    {
+      "id": "1",
+      "totalVisualizacoes": 38586,
+      "itemMaisAcessado": "Lavadora de 1907",
+      "reliquiaMaisAcessada": "Lavadora de 1907",
+      "periodo": "Última semana",
+      "dataAtualizacao": "2025-11-14T18:46:14.045Z"
     }
   ]
 }

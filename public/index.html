@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Relíquias Antigas</title>
+    </head>
+<body>
+    <header>
+        <h1>Relíquias Antigas</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div id="userInfo" style="display: none; margin-right: 20px;">
+                <span id="userName"></span>
+                <button onclick="logout()" class="btn btn-sm btn-outline-light ms-2">Sair</button>
+            </div>
+            <a href="login.html" id="loginLink" class="btn btn-sm btn-outline-light" style="margin-right: 20px;">Login</a>
+        </div>
+    </header>
+
+    <h2>Descubra o valor do tempo</h2>
+    <p>
+        Cada peça conta uma história. Explore nossa coleção de relíquias antigas e mergulhe
+        no encanto do passado preservado em cada detalhe.
+    </p>
+
+    
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+        </div>
+
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <div style="text-align: center; margin: 20px;">
+        <a href="detalhe.html" class="botoes" id="mudar">Entrar</a>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <p>Máquina de lavar</p>
+                <img src="primeira-lavadora-brasileira-foi-fabricada-ha-71-anos00004.webp" 
+                    width="140" height="100" alt="Máquina de lavar">
+            </div>
+
+            <div class="col">
+                <p>Televisão</p>
+                <img src="images.jpg" width="140" height="100" alt="Televisão">
+            </div>
+
+            <div class="col">
+                <p>Rádio</p>
+                <img src="radio.jpg" width="140" height="100" alt="Rádio">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            AUTOR: Vinicius Henrique Antonio Oliveira - 2025
+            <br>
+            estudante da pucminas sistema de informação
+        </p>
+        <img src="WhatsApp Image 2025-10-07 at 13.21.09.jpeg" width="90" height="80" alt="Logo">
+    </footer>

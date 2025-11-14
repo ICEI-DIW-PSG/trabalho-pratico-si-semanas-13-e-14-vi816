@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Relíquias Antigas",
+    "description": "Descubra o valor do tempo",
+    "charset": "UTF-8",
+    "language": "pt-BR",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "dependencies": {
+    "bootstrap": {
+      "version": "5.3.8",
+      "css": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
+      "js": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    },
+    "customFiles": [
+      "css/styles.css",
+      "assets/scripts/page.js"
+    ]
+  },
+  "header": {
+    "mainTitle": "Relíquias Antigas",
+    "navigation": {
+      "items": [
+        { "label": "Home", "href": "index.html", "active": true },
+        { "label": "Detalhes", "href": "detalhe.html", "active": false },
+        { "label": "Estatísticas", "href": "grafico.html", "active": false }
+      ]
+    }
+  },
+  "mainContent": {
+    "subtitle": "Descubra o valor do tempo",
+    "description": "Cada peça conta uma história. Explore nossa coleção de relíquias antigas e mergulhe no encanto do passado preservado em cada detalhe",
+    "carousel": {
+      "id": "myCarousel",
+      "type": "slide carousel-fade",
+      "autoplay": false,
+      "items": [
+        {
+          "id": "1",
+          "active": true,
+          "image": {
+            "src": "images.jpg",
+            "alt": "Figure covered in nails standing upright in a museum display surrounded by various artifacts and wooden sculptures, creating a mysterious and historical atmosphere.",
+            "title": "Armadura de Urso",
+            "description": "Armadura para caçadores de ursos na Sibéria no século 19"
+          },
+          "style": "max-height:400px;object-fit:contain;"
+        },
+        {
+          "id": "2",
+          "active": false,
+          "image": {
+            "src": "lavadora-1907-cabilavi-qk2675qmxgqrbjo3ytms8uiegyrei35a147uygggeo.png",
+            "alt": "Lavadora de roupas de 1907 com sistema de rotação manual para lavar roupas",
+            "title": "Lavadora de 1907",
+            "description": "Sistema de rotação manual para lavar roupas"
+          },
+          "style": "max-height:400px;object-fit:contain;"
+        },
+        {
+          "id": "3",
+          "active": false,
+          "image": {
+            "src": "13428635.jpg",
+            "alt": "Antique slicer for ham and cheese displayed on a counter in a traditional market setting with other vintage tools visible in the background, evoking a nostalgic and historic atmosphere.",
+            "title": "Cortador Antigo",
+            "description": "Fatiador vintage usado em mercados tradicionais"
+          },
+          "style": "max-height:400px;object-fit:contain;"
+        }
+      ],
+      "controls": {
+        "previous": {
+          "text": "Anterior",
+          "target": "#myCarousel",
+          "slide": "prev"
+        },
+        "next": {
+          "text": "Próximo",
+          "target": "#myCarousel",
+          "slide": "next"
+        }
+      }
+    }
+  },
+  "footer": {
+    "author": {
+      "name": "Vinicius Henrique Antonio Oliveira",
+      "year": 2025,
+      "institution": "PUC Minas - Sistema de Informação",
+      "role": "Estudante"
+    },
+    "profileImage": {
+      "src": "WhatsApp Image 2025-10-07 at 13.21.09.jpeg",
+      "width": 90,
+      "height": 80,
+      "alt": "Foto do autor"
+    },
+    "socialLinks": [
+      { "label": "GitHub", "href": "#", "platform": "github" },
+      { "label": "Portfólio", "href": "#", "platform": "portfolio" }
+    ]
+  },
+  "theme": {
+    "primaryColor": "#343a40",
+    "secondaryColor": "#6c757d",
+    "accentColor": "#007bff",
+    "backgroundColor": "#ffffff",
+    "textColor": "#212529"
+  },
+  "seo": {
+    "keywords": ["relíquias", "antiguidades", "história", "artefatos", "museu", "vintage"],
+    "category": "História e Cultura",
+    "targetAudience": "Interessados em história e antiguidades"
+  },
+  "technical": {
+    "responsive": true,
+    "framework": "Bootstrap 5.3.8",
+    "carouselType": "fade",
+    "imageOptimization": "object-fit: contain",
+    "maxImageHeight": "400px"
+  }
+}
