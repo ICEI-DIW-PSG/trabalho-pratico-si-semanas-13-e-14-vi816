@@ -9,10 +9,10 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula: 
-- Proposta de projeto escolhida: 
-- Breve descrição sobre seu projeto: 
+- Nome: Vinicius Henrique Antonio Oliveira
+- Matricula: 1564684
+- Proposta de projeto escolhida: site de reliquas
+- Breve descrição sobre seu projeto: O projeto mostra apresenta reliquias antigas e suas historias
 
 **Print da tela com a implementação**
 
